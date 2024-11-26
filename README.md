@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Folder Structure
+rbac-ui/
+├── public/               # Static assets
+├── src/
+│   ├── components/       # Reusable components (e.g., Navbar, Footer)
+│   ├── pages/            # Pages (e.g., Dashboard, AssignRole, NotFound)
+│   ├── context/          # Context API files for managing state
+│   ├── styles/           # CSS or Tailwind configuration files
+│   ├── App.js            # Main application entry point
+│   ├── index.js          # Entry file to render the React app
+│   └── routes.js         # Application routing
+├── .gitignore            # Files to ignore in version control
+├── package.json          # Project dependencies and scripts
+└── README.md             # Project documentation
